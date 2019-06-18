@@ -1,0 +1,22 @@
+Analyzing budgets...
+--
+Pittsburgh
+Total Expenses: $556414859
+Most Expensive Line Item: principal $53000000
+Total: $-10066716
+Total Revenues: $-566481575
+Number of Departments: 27
+--
+Chapel Hill
+Total Expenses: $122277684
+Most Expensive Line Item: personnel $10367327
+Total: $-210000
+Total Revenues: $-122487684
+Number of Departments: 23
+--
+Seattle
+Total Expenses: $6121946257
+Most Expensive Line Item: other general expenses $362531503
+Total: $6009434024
+Total Revenues: $-112512233
+Number of Departments: 247
