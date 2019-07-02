@@ -89,7 +89,7 @@ When the method is working and the line is uncommented, it should print out (for
 
 Note that the total revenues should be printed as negative. That's standard accounting practice.
 
-#### 5. Refactor `City.display_name` to an instance method
+### 5. Refactor `City.display_name` to an instance method
 
 `City.display_name` is a class method that takes in a name and returns a formatted version. Refactor the method from class method to instance method.
 
