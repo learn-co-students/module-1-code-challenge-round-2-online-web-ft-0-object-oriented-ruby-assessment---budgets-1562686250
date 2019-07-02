@@ -174,23 +174,23 @@ Clean up your application. Remove commented out code, check that your indentatio
 ### Object Oriented Ruby Syntax
 
 1. Invalid syntax, program exits with syntax error when run
-2. Incorrect use of syntax, program exits with runtime errors
-3. Program runs without raising an error, but is incomplete or has logic bugs
-4. Program executes successfully, but code may have minor flaws or non-idiomatic Ruby
-5. Program executes successfully, code uses clear variable names, comments, formatting, and idiomatic Ruby
+2. Incorrect use of syntax, program exits with runtime error
+3. Program executes without errors, but is incomplete or misuses syntax.
+4. Program executes without errors and uses syntax correctly. Code may have unclear variable names, comments, or formatting.
+5. Program executes without errors and uses syntax correctly. Code uses clear variable names, comments, and formatting.
 
-### Relationships between Classes and Objects
+### Problem Solving and Debugging Object Oriented Ruby
 
-1. Code does not successfully connect classes with relationships or inheritance
-2. Code connects classes incompletely or with errors; it may have relationships but not inheritance or inheritance but not relationships
-3. Inheritance and Class relationships mostly correct, but with some design errors
-4. Code correctly connects classes with relationships and inheritance,
-5. Code correctly connects classes with relationships and inheritance,
+1. Program exits with an error.
+2. Program executes without errors. Program is incomplete, or most output does not match the expected output.
+3. Program executes without errors, but may be incomplete. Output for several methods does not match the expected output.
+4. Output is similar to expected output, but has minor differences in formatting.
+5. Output exactly matches expected output. 
 
-### OO Design
+### Object Oriented Design and Class Relationships
 
-1. Code design does not correctly choose class vs. instance methods
-2. Code correctly chooses class vs. instance methods, but does not successfully extract helper methods
-3. Code correctly chooses class vs. instance methods and extracts helper methods, but there are some errors.
-4. Code correctly selects class and instance methods and successfully extracts helper methods. Code may choose wrong models to implement certain methods on or choose wrong levels of visibility for methods.
-5. Code correctly selects class and instance methods and successfully extracts helper methods. Code chooses appropriate models to implement methods on and correct levels of visibility.
+1. Code does not set up relationships between classes.
+2. Code sets up relationships between classes incompletely or with errors. 
+3. Code sets up relationships between classes.
+4. Code correctly sets up relationships between classes. Some code may use class or instance methods inappropriately or duplicate code instead of extracting helper methods.
+5. Code correctly sets up relationships between classes. Code correctly uses class and instance methods, as well as extracting helper methods to reduce duplication.
