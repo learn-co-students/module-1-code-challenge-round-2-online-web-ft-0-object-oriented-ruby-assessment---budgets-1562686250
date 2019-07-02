@@ -56,7 +56,23 @@ As you solve the rest of the tasks, make sure that the code continues to run wit
 
 Something is wrong with the way that the total expenses are being calculated. When you run the code, you can see that the total expenses for Pittsburgh are showing as `$-566481575`. The correct total for Pittsburgh is `$556414859`.
 
-Debug the issue so that the correct total expenses print for each city. The correct total expenses for Chapel Hill are `$-122487684`. The correct total expenses for Seattle are `$-112512233`.
+Debug the issue so that the correct total expenses print for each city. The correct total expenses for Chapel Hill are `$122277684`. The correct total expenses for Seattle are `$6121946257`. When you have fixed the methods in `city.rb`, the lines should show:
+
+```
+Pittsburgh
+Total Expenses: $556414859
+```
+
+```
+Chapel Hill
+Total Expenses: $122277684
+```
+
+and
+```
+Seattle
+Total Expenses: $6121946257
+```
 
 ### 3. Fix logic issue in most_expensive_line_item
 
