@@ -191,6 +191,6 @@ Clean up your application. Remove commented out code, check that your indentatio
 
 1. Code does not set up relationships between classes.
 2. Code sets up relationships between classes incompletely or with errors. 
-3. Code sets up relationships between classes.
+3. Code sets up relationships between classes, but class relationships are not used to build advanced methods.
 4. Code correctly sets up relationships between classes. Some code may use class or instance methods inappropriately or duplicate code instead of extracting helper methods.
 5. Code correctly sets up relationships between classes. Code correctly uses class and instance methods, as well as extracting helper methods to reduce duplication.
