@@ -1,10 +1,16 @@
 class City
-  attr_reader :line_items, :name
+  attr_reader :name
 
   def initialize(city_data)
     @name = city_data[:name]
-    @line_items = city_data[:line_items].map do |li| 
+    city_data[:line_items].map do |li| 
       LineItem.new(li, self)
+    end
+  end
+
+  def line_items
+    LineItem.all.select do |item|
+      item.city == self
     end
   end
 
