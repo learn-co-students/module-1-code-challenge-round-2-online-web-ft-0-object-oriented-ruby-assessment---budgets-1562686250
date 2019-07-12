@@ -11,12 +11,12 @@ class BudgetAnalyzer
     CITY_DATA_ARRAY.map do |data|
       city = City.new(data)
       puts "--"
-      puts City.display_name(city.name)
+      puts display = city.name.capitalize
       puts "Total Expenses: $#{city.total_expenses}"
       puts "Most Expensive Line Item: #{city.most_expensive_line_item}"
       puts "Total: $#{city.get_total}"
-      # puts "Total Revenues: $#{city.total_revenues}"
-      # puts "Number of Departments: #{city.number_of_departments}"
+      puts "Total Revenues: $#{city.total_revenues}"
+      puts "Number of Departments: #{city.number_of_departments}"
     end
   end
 end
